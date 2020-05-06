@@ -4,6 +4,7 @@ set -u
 set -o pipefail
 
 # TODO find .env file in .gitignore file or or maybe add .env to .ignore
+# TODO add file flag
 # srcname and dstname
 srcname='db.dev.env'
 suffix='.env'
