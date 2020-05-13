@@ -59,7 +59,7 @@ if [ "$answer" != "${answer#[Yy]}" ]; then
 
 	# execute git command
 	echo "*******************README.md***********************"
-	echo "#$name" >> README.md
+	echo "# $name" >> README.md
 	echo "*******************git init************************"
 	git init
 	echo "***************git add README.md*******************"
