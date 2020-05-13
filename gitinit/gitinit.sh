@@ -67,7 +67,7 @@ if [ "$answer" != "${answer#[Yy]}" ]; then
 	echo "******************first commit*********************"
 	git commit -m "first commit"
 	echo "***************remote add origin*******************"
-	git remote add origin https://github.com/$owner/$name.git
+	git remote add origin git@github.com:$owner/$name.git
 	echo "***************push origin master******************"
 	git push -u origin master
 	echo "**********************end**************************"
